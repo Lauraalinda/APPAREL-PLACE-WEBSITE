@@ -1,0 +1,649 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!-- {% block content %} -->
+<!-- ....first_section... -->
+<div class="second_section">
+    <div class="part1">
+
+        <div class="image1">
+            <img src={% static "images/_I_love_shopping__There_is_a_little_bit_of_magic_-removebg-preview.png" %} id="woman">
+        </div>
+        <div class="part2">
+            <div class="threeimages">
+                <img src={% static "images/pinktop.png" %} id="top1" >
+                <img src={% static "images/shoe.png" %} id="top2" >
+                <img src={% static "images/Fashion_Tips-removebg-preview.png" %} id="top3" >
+            </div>
+
+            <div class="fall_winter">
+                <p>NEW-ARRIVAL</p>
+                <h1>Fall - Winter</h1>
+                <button id="shop"><a href="#">Shop Now</a></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="grey_section">
+
+<!-- ......offers.... -->
+    <div class="offers2">
+
+        <div class="text">
+            <div class="offer_icons">
+                <img src={% static "/images/Frame_1__2_-removebg-preview.png" id="icon" %}>
+            </div>
+            <div class="words">
+                <h6>Free Delivery</h6>
+                <p>Get free deliveries around Kampala.</p>
+            </div>
+        </div>
+
+        <div class="line3"></div>
+
+        <div class="text">
+            <div class="offer_icons">
+                <img src={% static "/images/Frame_1__3_-removebg-preview.png" id="icon1" %}>
+            </div>
+            <div class="words">
+                <h6>Secure Payment</h6>
+                <p>Trusted and secure money transactions.</p>
+            </div>
+        </div>
+
+        <div class="line3"></div>
+
+        <div class="text">
+            <div class="offer_icons">
+                <img src={% static "images/Frame_1__4_-removebg-preview.png" id="icon2" %}>
+            </div>
+            <div class="words">
+                <h6>Member discount</h6>
+                <p>Get discounts on your purchases.</p>
+            </div>
+        </div>
+
+        <div class="line3"></div>
+
+        <div class="text">
+            <div class="offer_icons">
+                <img src={% static "images/money_2-removebg-preview.png" id="icon3" %}>
+            </div>
+            <div class="words">
+                <h6>Money Back</h6>
+                <p>Refunds incase of any inconveniences.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="maroon_line"></div>
+    <div class="white_line"></div>
+
+<!-- ....top categories of the month..... -->
+    <div class="top_categories">
+        <div class="categories_heading">
+            <h3><span>Top</span> Categories of the Month</h3>
+        </div>
+
+        <div class="categories">
+            <div class="first_row">
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Body Suits</h5>
+                        <p>Cute body suites for all sizes <br> brands, colors</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "images/Frame_1__1_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Women's trousers</h5>
+                        <p>Different categories of pants that<br>suite all sizes</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "images/Frame_1__5_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Women's tops</h5>
+                        <p>A variety of tops in different <br>colors and sizes.</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "images/Frame_1__6_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Women's blouses</h5>
+                        <p>Different kinds of blouses<br>in different colors and brands,colors
+                        </p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "images/Frame_1__7_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="second_row">
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Accesories</h5>
+                        <p>Beautiful feminine accesories <br>fit<br> for your outfit.</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "/images/Frame_1__8_-removebg-preview.png" %} id="glasses">
+                    </div>
+                </div>
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Bags</h5>
+                        <p>Original ladies' handbags specially<br>made for you.</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "/images/Frame_1__9_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Shoes</h5>
+                        <p>View the differents shoes we<br>have stocked for you.</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "/images/Frame_1__12_-removebg-preview.png" %}>
+                    </div>
+                </div>
+
+                <div class="text2">
+                    <div class="wording">
+                        <h5>Sweaters</h5>
+                        <p>Look through the cute feminine<br>sweaters we have<br> for you.</p>
+                    </div>
+                    <div class="cloth">
+                        <img src={% static "/images/Group_3-removebg-preview.png" %}>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ..... special products.... -->
+    <div class="Special Products">
+        <div class="special_productsrow">
+            <div class="content" id="content1">
+                <div class="details">
+                    <h6>SPECIAL PRODUCTS</h6>
+                    <h3>Keep your Feet cool & comfy</h3>
+                    <button class="shop2"><a href="#">Shop Now</a></button>
+                </div>
+                <div class="imgz">
+                    <img src={% static "/images/all stars.png" %} id="yellow">
+                </div>
+            </div>
+
+            <div class="content" id="content2">
+                <div class="details">
+                    <h6>BEAUTY PRODUCTS</h6>
+                    <h3>Cosmetics New collection</h3>
+                    <button class="shop2"><a href="#">Shop Now</a></button>
+                </div>
+                <div class="imgz">
+                    <img src={% static "/images/eyeshadow.png" %} id="pink">
+                </div>
+            </div>
+
+            <div class="content" id="content3">
+                <div class="details">
+                    <h6>CLOTHING PRODUCTS</h6>
+                    <h3>Prepare for your Latest season</h3>
+                    <button class="shop2"><a href="#">Shop Now</a></button>
+                </div>
+                <div class="imgz">
+                    <img src={% static "/images/orangewomen.png" %} id="orange">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ......Top flash deals..... -->
+ <div class="Top_flashDeals">
+        <h2><span>Top</span> Flash Deals</h2>
+        <div class="Top_firstrow">
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/lon2.png" %}>
+                </div>
+                <div class="texts">
+                    <div  class="price">
+                    <h6>Lingerie</h6>
+                    <p>$30</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Lingerie in all colors and<br>sizes.</p>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/pink bathrobe.png" %}>
+                </div>
+                <div class="texts">
+                    <div  class="price">
+                    <h6>Bathrobes</h6>
+                    <p id="fifty2">$50</p>
+                   </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Cute bath robes for both<br>adults and kids</p>
+                </div>
+            </div>
+
+            <div class="contents" id="strap">
+                <div class="top_image">
+                    <img src={% static "images/strip top.png" %}>
+                </div>
+                <div class="texts">
+                    <div  class="price">
+                    <h6>Tops</h6>
+                    <p id="fifty">$50</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Strapped tops to suit your body shape</p>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/blue pants.png" %}>
+                </div>
+                <div class="texts">
+                    <div  class="price">
+                    <h6>Trousers</h6>
+                    <p>$60</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                    </div>
+                    <p>Office trousers in all sizes.</p>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/yellowsweater.png" %}>
+                </div>
+                <div class="texts">
+                    <div class="price">
+                    <h6>Sweaters</h6>
+                    <p>$30</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Laced casual sweaters for all seasons.</p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="Top_secondrow">
+        
+            <div class="contents" id="image2">
+                <div class="new">
+                <div class="boots">
+                    <h2 id="title">NEW</h2>
+                     <img src={% static "images/boots.png" %}>
+                </div>
+                <div class="boots_text">
+                    <h6>Feminine Winter Boots</h6>
+                    <p>Discount offer this new season
+                        for trending feminine winter 
+                        boots that come in all sizes.
+                        </p>
+
+                    <h5>$20,000</h5>
+                    <button id="add"><a href="#">ADD TO CART</a></button> 
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/orangebag.png" %}>
+                </div>
+                <div class="texts">
+                    <div class="price">
+                    <h6>Bags</h6>
+                    <p id="dollar">$30</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Lovely party bags and<br>side bags.</p>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/yellow blazer.png" %}>
+                </div>
+                <div class="texts">
+                    <div class="price">
+                    <h6>Blazers</h6>
+                    <p id="dollar">$80</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                    </div>
+                    <p>Office blazers that come in<br>all sizes</p>
+                </div>
+            </div>
+            
+            <div class="contents">
+                <div class="top_image">
+                    <img src={% static "images/redheels.png" %}>
+                </div>
+                <div class="texts">
+                    <div class="price">
+                    <h6>Heels</h6>
+                    <p >$30</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star" id="full_star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>High heeled shoes for<br>different occasions</p>
+                </div>
+            </div>
+   
+        </div>
+    </div>
+<!-- ....scan..... -->
+   <div class="background"></div>
+    <div class="maroon_blue">
+        <div class="fashion">
+        <img src={% static "images/blue coat.png" %}>
+        <p><span>Fashion</span> Gift Voucher: 100 loyal clients 100% off!</p>
+        </div>
+        <div class="scan">
+            <div class="scan1">
+            <h6>SCAN QR CODE</h6>
+            <p>Use your mobile phone</p>
+            </div>
+            <div class="qr_code">
+                <img src={% static "images/qr code.png" %}>
+            </div>
+        </div>
+    </div>
+
+<!-- ......Cosmetics.... -->
+    <div class="Top_Cosmetics_Products">
+        <div class="cosmetics_products">
+            <h2><span>Top</span> Cosmetics Products</h2>
+            
+            <div class="Top_firstrow">
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/red.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Lipstick</h6>
+                        <p>$10</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Get your favourite shade <br>of lipstick.</p>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/eyeshadow2.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>EyeShadow</h6>
+                        <p>$10</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Naked brand eye shadow palates</p>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/brushes.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Brushes</h6>
+                        <p>$40</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Classic makeup brushes<br>
+                            of all sizes.</p>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/Frame_6__16_-removebg-preview.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Mascara</h6>
+                        <p>$10</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Mascara in different colors<br>and brands.</p>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/gloss.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Concealer</h6>
+                        <p>$20</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Quality concealer to get <br>your dream look</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="cosmetics_secondrow">
+                <div class="Top_firstrow">
+                    <div class="contents">
+                        <div class="top_image">
+                        <img src={% static "images/eyeliner.png" %}>
+                        </div>
+                       <div class="texts">
+                           <div class="price">
+                            <h6>Eyeliner</h6>
+                            <p>$20</p>
+                           </div>
+                            <div class="stars">
+                                <i class="fa fa-star" id="full_star"></i>
+                                <i class="fa fa-star" id="full_star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>Eye liner from different <br>brands and colors.</p>
+                        </div>
+                    </div>
+               
+
+                    <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/Foundation.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Foundation</h6>
+                        <p>$30</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Quality foundation that<br>suits your skin tone.</p>
+                    </div>
+                </div>
+            
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/setting spray.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Setting spray</h6>
+                        <p>$60</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Keep your make up in place <br>with quality setting spra
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/eyelashes.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Eye lashes</h6>
+                        <p>$50</p>
+                       </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>Eyelashes of all shapes<br>and sizes.</p>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="top_image">
+                    <img src={% static "images/sponges.png" %}>
+                    </div>
+                    <div class="texts">
+                        <div class="price">
+                        <h6>Sponges</h6>
+                        <p>$10</p>
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star" id="full_star"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                        <p>Makeup sponges for great<br>effective makeup.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="subscribe">
+<p>Subscribe to our</p>
+<h2>NEWS LETTER</h2>
+<div class="subscribe-bar">
+    <input type="text" placeholder="Input Email" class="input" name="q">
+    <button type="search" class="subs">Subscribe</button>
+</div>
+</div>
+<!-- {% endblock content %} -->

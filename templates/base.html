@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href= {% static 'css/style.css' %}>
+    
+    
+    <script src="https://kit.fontawesome.com/7cf0963032.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- ......header.... -->
+    <div class="first_section">
+        <div class="brown">
+            <p><span>FREE DELIVERY</span>FOR SHOPPING OVER 20,000UGX<span2>DETAILS</span2>
+            </p>
+            <p class="offers"><a href="#"> VIEW OFFERS </a></p>
+        </div>
+
+        <div class="blue">
+            <div class="blue_text">
+                <h5>APPAREL<br><span>PLACE</span></h5>
+                <div class="line"></div>
+                <h6 id="one">CLOTHING</h6>
+                <div class="line"></div>
+                <h6 id="two">COSMETICS</h6>
+
+                <div class="icons">
+                    <i class="fa fa-user-o"></i>
+                    <p>Account</p>
+                    <i class="fa fa-shopping-cart"></i>
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grey">
+        <div class="flag">
+            <img src={% static 'images/image-removebg-preview (1).png' %}>
+            
+            <div class="line2"></div>
+            <h6 id="three">ENGLISH</h6>
+            <div class="line2"></div>
+            <h6 id="four">UGX</h6>
+        </div>
+
+        <div class="heading">
+            <h2>APPAREL<br><span>PLACE</span></h2>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="SEARCH" id="search product" name="q">
+            <button type="search"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">NEW!</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CLOTHING</a></li>
+                <li><a href="#">COSMETICS</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+
+
+{% block content %} 
+
+  
+{% endblock content %} 
+
+
+<div class="footer">
+   
+    <div class="details2">
+    <div class="footer_img">
+        <img src={% static "images/Solid Crop Tank Top.png" %}>
+    </div>
+   
+    <div class="bottom">
+    <h2>APPAREL<br><span>PLACE</span></h2>
+    <div class="contacts">
+
+        <div class="footer_head">
+            <h6>Patnership</h6>
+            <p>AkiraChix</p>
+            <p>Alinda Foundation</p>
+        </div>
+
+        <div class="footer_head">
+            <h6>Location</h6>
+            <p>P.o Box 28244</p>
+            <p>Kampala</p>
+            <p>Uganda</p>
+        </div>
+
+        <div class="footer_head">
+            <h6>Contacts</h6>
+            <p>+256756046099</p>
+            <p>lauraallinda@gmail.com</p>
+        </div>
+      </div>
+      
+    </div>
+   </div>
+    <hr class="footer_line">
+    
+    <div class="footer_icons">
+        <p>All rights reserved 2022</p>
+        <div class="footer_icons2">
+            <a href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/kengaaju-laura-alinda-12b139231/"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
